@@ -50,7 +50,7 @@ def main():
             print(words)
             print(words_count)
             
-    with open('res.tzt', 'w') as f:
+    with open('res.txt', 'w') as f:
         f.writeline(words)
         f.writeline(words_count)
             
