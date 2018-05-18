@@ -8,7 +8,7 @@ for word in words: words_count.append(0)
 
 endswitch = ['|', '}}']
 
-def request(rew_id):
+def request(rev_id):
     payload = {
             "action": "query",
             "format": "json",
