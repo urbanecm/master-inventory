@@ -13,7 +13,7 @@ def request(rew_id):
             "action": "query",
             "format": "json",
             "prop": "revisions",
-            "revids": rew_id,
+            "revids": rev_id,
             "rvprop": "content"
         }
     request = requests.get("https://cs.wikipedia.org/w/api.php", params=payload)
